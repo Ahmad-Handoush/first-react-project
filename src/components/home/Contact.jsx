@@ -18,31 +18,33 @@ function Contact() {
       <div className="container">
         <Title>we are happy to hear from you </Title>
         <div className="contact-us" data-aos="zoom-in">
-          <form action="">
+          <form action="" name="contact">
             <div className="form-group">
-              <label htmlFor="">Name</label>
+              <label htmlFor="#name">Name</label>
               <input
                 type="text"
                 placeholder="Your name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
+                id="name"
               />
             </div>
             <div className="form-group">
-              <label htmlFor="">Email</label>
+              <label htmlFor="#email">Email</label>
               <input
                 type="text"
                 placeholder="Your email"
                 value={email}
                 onChange={(e) => setemail(e.target.value)}
+                id="email"
               />
             </div>
             <div className="form-group">
-              <label htmlFor="">How did you find us?</label>
+              <label htmlFor="#select">How did you find us?</label>
               <select
                 name="find"
                 className="select"
-                id=""
+                id="select"
                 value={find}
                 onChange={(e) => setFind(e.target.value)}
               >
@@ -52,22 +54,23 @@ function Contact() {
               </select>
             </div>
             <div className="form-check">
-              <label htmlFor="">Newsletter?</label>
+              <label htmlFor="#check">Newsletter?</label>
               <div className="check">
                 <input
                   type="checkbox"
                   placeholder="Your name"
                   value={checked}
+                  id="check"
                   onChange={(e) => setChecked(e.target.value)}
                 />
                 <label htmlFor="">yes,please</label>
               </div>
             </div>
             <div className="form-group">
-              <label htmlFor="">Drop us a line</label>
+              <label htmlFor="#text">Drop us a line</label>
               <textarea
                 name=""
-                id=""
+                id="text"
                 cols="40"
                 rows="5"
                 value={text}

@@ -20,7 +20,7 @@ function Contact() {
         <div className="contact-us" data-aos="zoom-in">
           <form action="" name="contact">
             <div className="form-group">
-              <label htmlFor="#name">Name</label>
+              <label>Name</label>
               <input
                 type="text"
                 placeholder="Your name"
@@ -30,7 +30,7 @@ function Contact() {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="#email">Email</label>
+              <label>Email</label>
               <input
                 type="text"
                 placeholder="Your email"
@@ -40,7 +40,7 @@ function Contact() {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="#select">How did you find us?</label>
+              <label>How did you find us?</label>
               <select
                 name="find"
                 className="select"
@@ -54,7 +54,7 @@ function Contact() {
               </select>
             </div>
             <div className="form-check">
-              <label htmlFor="#check">Newsletter?</label>
+              <label>Newsletter?</label>
               <div className="check">
                 <input
                   type="checkbox"
@@ -67,7 +67,7 @@ function Contact() {
               </div>
             </div>
             <div className="form-group">
-              <label htmlFor="#text">Drop us a line</label>
+              <label>Drop us a line</label>
               <textarea
                 name=""
                 id="text"

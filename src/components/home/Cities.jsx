@@ -45,7 +45,7 @@ function Cities() {
     <section className="cities" id="cities">
       <div className="container">
         <Title> We are currently in these cities</Title>
-        <ul className="show flex" data-aos="fade-down">
+        <ul className="show flex" data-aos="fade-up">
           {cities.map((city) => (
             <li key={city.city} className="imag">
               <div className="main-image">

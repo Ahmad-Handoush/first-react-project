@@ -83,9 +83,7 @@ function MainCards() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
-  const top = () => {
-    window.scrollTo(0, 0);
-  };
+
   return (
     <div className="cards" data-aos="fade-left">
       <div className="container">
